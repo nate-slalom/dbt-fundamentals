@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: jaffle_shop data
+    database: RAW
+    schema: JAFFLE_SHOP
+    tables:
+      - name: customers
+        description: Jaffle Shop customer information
+        identifier: CUSTOMERS
+      - name: orders
+        description: Jaffle Shop order information
+        identifier: ORDERS

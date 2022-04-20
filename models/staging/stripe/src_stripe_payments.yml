@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: stripe
+    description: stripe data
+    database: RAW
+    schema: STRIPE
+    tables:
+      - name: payments
+        description: Stripe payment information
+        identifier: PAYMENT
